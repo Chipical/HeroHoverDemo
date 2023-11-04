@@ -15,19 +15,6 @@ body{
    height: 100vh;
 }
 
-header{
-   position: absolute;
-   top: 0;
-   left: 50%;
-   transform: translateX(-50%);
-   color: #4c7ee8;
-   font-size: 3rem;
-   padding: 2rem 1rem;
-   text-align: center;
-   z-index: 10;
-   text-transform: uppercase;
-}
-
 footer{
    position: absolute;
    bottom: 0;
