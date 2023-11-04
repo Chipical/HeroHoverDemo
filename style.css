@@ -15,6 +15,19 @@ body{
    height: 100vh;
 }
 
+header{
+   position: absolute;
+   top: 0;
+   left: 50%;
+   transform: translateX(-50%);
+   color: #4c7ee8;
+   font-size: 3rem;
+   padding: 2rem 1rem;
+   text-align: center;
+   z-index: 10;
+   text-transform: uppercase;
+}
+
 footer{
    position: absolute;
    bottom: 0;
@@ -124,14 +137,18 @@ footer{
 .slice.left .bg{
    background-image: url(imgs/war.png);
    background-position: left center;
+   background-position-y: top;
 }
 .slice.med .bg{
    background-image: url(imgs/dps.png);
    background-position: center center;
+   background-position-y: top;
 }
 .slice.right .bg{
    background-image: url(imgs/healer.png);
    background-position: right center;
+   background-position-y: top;
+   background-position-x: 20%;
 }
 
 .slice:hover .bg{
@@ -150,7 +167,7 @@ max-height: 20rem;
 }
 
 .slice.med:hover {
-   width: 70%; /* Adjust the width as needed */
+   width: 80%; /* Adjust the width as needed */
    z-index: 2; /* Ensure it's above the left and right slices */
 }
 
