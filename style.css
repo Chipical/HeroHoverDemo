@@ -150,6 +150,7 @@ footer{
 .slice:hover .bg{
    filter:grayscale(0);
    transform: scale(1.2);
+   background-position: top center;
 }
 
 .slice:hover .abstract{
